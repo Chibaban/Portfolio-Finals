@@ -1,0 +1,223 @@
+body{
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    overflow: hidden;
+}
+
+
+#Home_Page{
+    background-image: url(background.png);
+    background-attachment: fixed;
+}
+
+#Header{
+    font-size: 100px;
+    color: rgb(129, 91, 91);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+#Created_by{
+    font-size: 35px;
+    margin-top: -60px;
+    color: rgb(129, 91, 91);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Home{
+    display: block;
+    font-size: 20px;
+    margin-top: 70px;
+    text-decoration: none;
+    color: darkgoldenrod;
+    width: fit-content;
+    pointer-events: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+
+.Educational_Background{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(129, 91, 91);
+    width: fit-content;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Educational_Background:hover{
+    color: darkgoldenrod;
+    transform: scale(1.05);
+}
+
+.Achievements{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(129, 91, 91);
+    width: fit-content;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Achievements:hover{
+    color: darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.Projects{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(129, 91, 91);
+    width: fit-content;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Projects:hover{
+    color: darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.About-Me {
+    display: block;
+    width: 400px; /* Adjust the size to your preference */
+    height: 550px; /* Ensure it's a square for the circle effect */
+    border-radius: 10px;
+    object-position: top;
+    object-fit: cover; /* Ensures the image scales properly within the circle */
+    margin-top: -235px;
+    margin-left: 700px;
+    border: 1px solid black; /* Optional: Adds a border around the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.About-Me:hover{
+    transform: scale(1.05);
+}
+
+#AboutMe{
+    font-size: 50px;
+    color: rgb(129, 91, 91);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-top: -550px;
+    margin-left: 1030px;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+#AboutMe:hover{
+    transform: scale(1.1);
+}
+
+#About-Me-Box {
+    margin-top: -5px;
+    margin-left: 1150px;
+    font-size: 20px;
+    padding: 30px;
+    background: rgb(129, 91, 91);
+    border-radius: 8px;
+    width: 600px;
+    min-height: 0px;
+    border: 2px solid rgb(102, 71, 71);
+    color: white;
+    line-height: 30px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+#About-Me-Box:hover{
+    transform: scale(1.05);
+}
+
+.Facebook{
+    display: block;
+    width: 50px; /* Adjust the size to your preference */
+    height: 50px; /* Ensure it's a square for the circle effect */
+    border-radius: 100px;
+    object-position: top;
+    object-fit: cover; /* Ensures the image scales properly within the circle */
+    margin-top: 50px;
+    margin-left: 1350px;
+    border: 1px solid rgb(129, 91, 91);; /* Optional: Adds a border around the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Facebook:hover{
+    transform: scale(1.3);
+}
+
+.Instagram{
+    display: block;
+    width: 50px; /* Adjust the size to your preference */
+    height: 50px; /* Ensure it's a square for the circle effect */
+    border-radius: 100px;
+    object-position: top;
+    object-fit: cover; /* Ensures the image scales properly within the circle */
+    margin-top: -52px;
+    margin-left: 1450px;
+    border: 1px solid rgb(129, 91, 91);; /* Optional: Adds a border around the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Instagram:hover{
+    transform: scale(1.3);
+}
+
+.LinkedIn{
+    display: block;
+    width: 50px; /* Adjust the size to your preference */
+    height: 50px; /* Ensure it's a square for the circle effect */
+    border-radius: 100px;
+    object-position: top;
+    object-fit: cover; /* Ensures the image scales properly within the circle */
+    margin-top: -52px;
+    margin-left: 1550px;
+    border: 1px solid rgb(129, 91, 91);; /* Optional: Adds a border around the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.LinkedIn:hover{
+    transform: scale(1.3);
+}
+
+#Email{
+    font-size: 20px;
+    color: rgb(129, 91, 91);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-left: 730px;
+    margin-top: -50px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: fit-content;
+}
+
+#Email:hover{
+    transform: scale(1.1);
+}
+
+#ContactNumber{
+    font-size: 20px;
+    color: rgb(129, 91, 91);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    margin-left: 760px;
+    margin-top: -10px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: fit-content;
+}
+
+#ContactNumber:hover{
+    transform: scale(1.1);
+}

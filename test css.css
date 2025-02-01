@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #4a2a7f;
+    color: white;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+img {
+    width: 200px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+#preview-box {
+    margin-left: 20px;
+    padding: 20px;
+    background: #2e1a5b;
+    border-radius: 10px;
+    width: 300px;
+    min-height: 100px;
+    border: 2px solid white;
+    color: white;
+}
+
+#preview-text {
+    margin: 0;
+}

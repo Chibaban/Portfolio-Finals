@@ -1,0 +1,156 @@
+body{
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto';
+    overflow: hidden;
+}
+
+
+#Home_Page{
+    background-image: url(background.png);
+    background-attachment: fixed;
+}
+
+#Header{
+    font-size: 100px;
+    color: rgb(129, 91, 91);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+#Created_by{
+    font-size: 35px;
+    margin-top: -60px;
+    color: rgb(129, 91, 91);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Home{
+    display: block;
+    font-size: 20px;
+    margin-top: 70px;
+    text-decoration: none;
+    color: rgb(129, 91, 91);
+    width: fit-content;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Home:hover{
+    color:darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.Educational_Background{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(129, 91, 91);
+    width: fit-content;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Educational_Background:hover{
+    color: darkgoldenrod;
+    transform: scale(1.05);
+}
+
+.Achievements{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(129, 91, 91);
+    width: fit-content;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s;
+}
+
+.Achievements:hover{
+    color:darkgoldenrod;
+    transform: scale(1.1);
+}
+
+.Projects{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: darkgoldenrod;
+    width: fit-content;
+    pointer-events: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Wrapper to contain the achievements box and buttons */
+#achievements-wrapper {
+    position: relative; /* Make the wrapper a positioning context */
+    width: fit-content; /* Adjust width to fit content */
+    margin: 0 auto; /* Center the wrapper horizontally */
+    margin-top: -200px; /* Adjust as needed */
+}
+
+#achievements-container {
+    margin-left: 143px;
+    text-align: center;
+    background: rgb(129, 91, 91);
+    border: 2px solid rgb(102, 71, 71);
+    padding: 30px;
+    border-radius: 8px;
+    width: 600px; /* Fixed width */
+    height: 345px; /* Allow height to adjust based on content */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto; /* Allow vertical scrolling for overflow content */
+}
+
+#achievement-image {
+    max-width: 60%; /* Adjust the width of the image */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px; /* Add space below the image */
+}
+
+#achievement-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    width: 100%; /* Ensure the description takes full width */
+    text-align: center; /* Center the text */
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row; /* Stack buttons vertically */
+    gap: 10px; /* Add some space between the buttons */
+    position: fixed; /* Fix the buttons in place */
+    left: 1033px; /* Position buttons 20px from the right edge of the viewport */
+    top: 170px; /* Center vertically */
+    transform: translateY(-50%); /* Adjust vertical centering */
+}
+
+#back-button,
+#next-button {
+    background: darkgoldenrod;
+    border: 3px solid darkgoldenrod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+#back-button:hover,
+#next-button:hover {
+    background-color: rgb(228, 166, 11);
+    transform: scale(1.05);
+}
